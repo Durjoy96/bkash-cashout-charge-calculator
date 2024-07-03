@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bkash Cash out Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/4a82536f30.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>BKash Cashout Charge Calculator</h1>
+        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus rem dolorem ab esse
+            itaque voluptatem!</p>
+
+        <div class="mydict">
+            <div>
+                <label>
+                    <input type="radio" name="agent" value="notPriyo" checked="">
+                    <span>Agent</span>
+                </label>
+                <label>
+                    <input type="radio" name="agent" value="priyo">
+                    <span>Priyo Agent</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="icon-input">
+            <i class="fa-solid fa-bangladeshi-taka-sign icon-for-input"></i>
+            <input type="number" id="userInput" placeholder="Enter Amount">
+        </div>
+
+        <button class="check-btn" onclick="action()">Check</button>
+
+        <div id="output"></div>
+
+        <table id="table">
+            <tr>
+                <th>With Charge</th>
+                <td id="with-charge"></td>
+            </tr>
+            <tr>
+                <th>Without Charge</th>
+                <td id="without-charge"></td>
+            </tr>
+        </table>
+
+        <a href="https://bka.sh/next">Open BKash App <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+    <script src="assets/scripts/script.js"></script>
+</body>
+
+</html>
